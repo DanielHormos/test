@@ -1,5 +1,7 @@
+import { PageTitle } from "./components/page-title";
+
 function App() {
-  return <h1>test</h1>;
+  return <PageTitle value="Hej!" />;
 }
 
 export default App;
